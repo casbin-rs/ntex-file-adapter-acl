@@ -1,0 +1,13 @@
+[package]
+name = "ntex-file-adapter-acl"
+version = "0.1.0"
+authors = ["Chojan Shang <psiace@outlook.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ntex = { version = "0.5", features = ["tokio"] }
+casbin = "2.0.9"
+dotenv = "0.15"
+loge = {version = "0.4.2", default-features = false, features = ["colored", "chrono"]}
